@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,83 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calculator {
+  background-color: black;
+  border-radius: 2rem;
+  height: 36rem;
+  max-height: 95%;
+  padding: 1rem;
+  width: 90%;
+  max-width: 20rem;
+}
+
+.calc-display {
+  color: white;
+  margin: 0;
+  height: 25%;
+  width: 100%;
+}
+
+.calc-value {
+  font-weight: 1;
+  text-align: right;
+}
+
+.calc-buttons {
+  height: 75%;
+  width: 100%;
+}
+
+.btn-row {
+  height: 19%;
+  width: 100%;
+  margin: 0;
+}
+
+.btn {
+  border-width: 0.2em;
+  border-color: black;
+  border-style: solid;
+  font-size: 2em;
+  height: 100%;
+  margin: 0;
+  width: 25%;
+}
+
+.btn:hover {
+  border-color: #dcdcdc;
+
+}
+
+.btn-s {
+  border-radius: 100%;
+}
+
+.btn-m {
+  border-radius: 2em;
+  text-align: left;
+  padding-left: 1em;
+  width: 50%;
+}
+
+.dec-btn {
+  background-color: #333333;
+  color: #dcdcdc;
+}
+
+.func-btn {
+  background-color: #ffa423;
+  color: #dcdcdc;
+}
+
+.num-btn {
+  background-color: #333333;
+  color: #dcdcdc;
+}
+
+.op-btn {
+  background-color: #a6a6a6;
+  color: #161616;
 }
