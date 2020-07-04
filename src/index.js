@@ -209,7 +209,7 @@ class Calculator extends React.Component {
             <FuncBtn value={"+"} onClick={() => this.setOperator("+")} />
           </div>
           <div className="btn-row">
-            <NumBtnLarge value={"0"} />
+            <NumBtnLarge value={"0"} onClick={() => this.valueClicked("0")} />
             <DecBtn value={"."} onClick={() => this.valueClicked(".")} />
             <FuncBtn value={"="} onClick={() => this.calculate()} />
           </div>
